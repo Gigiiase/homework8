@@ -1,0 +1,29 @@
+section {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(188, 29, 209);
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+   width: 400px;
+   height: 100px;
+   background-color: rgb(211, 14, 129);
+   color: aliceblue;
+   font-size: 30px;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   border-radius: 20px;
+   box-shadow: 2px 3px 5px rgb(255, 255, 255) inset,
+   5px 5px 5px black;
+   text-shadow: 3px 3px 3px  white;
+}
+
+button:hover {
+
+}
