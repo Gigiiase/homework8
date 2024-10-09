@@ -1,7 +1,7 @@
 section {
     width: 500px;
     height: 200px;
-    background-color: rgb(188, 29, 209);
+    /* background-color: rgb(224, 28, 166); */
     margin: 100px auto;
     display: flex;
     justify-content: center;
@@ -21,9 +21,51 @@ button {
    border-radius: 20px;
    box-shadow: 2px 3px 5px rgb(255, 255, 255) inset,
    5px 5px 5px black;
-   text-shadow: 3px 3px 3px  white;
+   text-shadow: 3px 15px 8px  rgb(10, 10, 10);
+   letter-spacing: 5px;
+   cursor: pointer;
 }
 
+
 button:hover {
+     box-shadow: 2px 3px 5px rgb(0, 0, 0) inset,
+   5px 5px 5px rgb(255, 255, 255);
+}
+
+article {
+    /* display: inline-block; */
+    margin: 100px 500px;
+    transition-property: all;
+    transition-duration: 1s;
+    
+    width: 350px;
+    height: 350px;
+    
+}
+img {
+    width: 350px;
+    height: 300px;
+    padding: 20px 20px;
+    
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 20px;
+    color: gold;
+    display: flex;
+    justify-content: center;
+    
+}
+
+article:hover{ 
+    /* border: 10px solid blue; */
+    box-shadow: 5px 5px 5px gold inset,
+    5px 5px 5px gold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    
+    
+
 
 }
