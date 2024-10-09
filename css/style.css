@@ -30,6 +30,7 @@ button {
 button:hover {
      box-shadow: 2px 3px 5px rgb(0, 0, 0) inset,
    5px 5px 5px rgb(255, 255, 255);
+   text-shadow: 1px 1px 10px black;
 }
 
 article {
@@ -64,8 +65,24 @@ article:hover{
     5px 5px 5px gold;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px ;
-    
-    
 
+}
 
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 140px;
+   color: red;
+   letter-spacing: 20px;
+   animation-name: opacity;
+   animation-iteration-count: infinite;
+   animation-duration: 0.5s;
+}
+
+@keyframes opacity {
+    0% {
+        color: white ;
+    
+    }
+    100% { color: red;}
 }
